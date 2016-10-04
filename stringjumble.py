@@ -30,7 +30,7 @@ print('You entered '+'"'+sentence+'". Now jumble it:')
 #Putting the whole sentence in backwards order
 backwards=sentence[::-1]
 print(backwards)
-#print('111')
+
 #Putting the words as they were in backwards order
 words=sentence.split()
 sentenceBackwards=words[::-1]
@@ -39,14 +39,13 @@ for x in sentenceBackwards:
     NEWsentenceBackwards+=x+' '
 NEWsentenceBackwards=NEWsentenceBackwards.strip()
 print(NEWsentenceBackwards)
-#print ('222')
+
 #Putting word lettering in backwards order but words in correct order
 BackwardWords=''
 for i in words:
     BackwardWords+=i[::-1]+' '
 BackwardWords=BackwardWords.strip()
 print(BackwardWords)
-#print ('333')
 
 
 
