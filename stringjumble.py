@@ -37,12 +37,14 @@ sentenceBackwards=words[::-1]
 NEWsentenceBackwards=backwards+ ' '
 for x in sentenceBackwards:
     NEWsentenceBackwards+=x+' '
+NEWsentenceBackwards=NEWsentenceBackwards.strip()
 #print(NEWsentenceBackwards)
 #print ('222')
 #Putting word lettering in backwards order but words in correct order
 BackwardWords=NEWsentenceBackwards+' '
 for i in words:
     BackwardWords+=i[::-1]+' '
+BackwardWords=BackwardWords.strip()
 print(BackwardWords)
 #print ('333')
 
