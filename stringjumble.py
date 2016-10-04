@@ -40,11 +40,11 @@ for x in sentenceBackwards:
 print(NEWsentenceBackwards)
 #print ('222')
 #Putting word lettering in backwards order but words in correct order
-BackwardWords=NEWsentenceBackwards+chr(10)
+BackwardWords=''
 for i in words:
     BackwardWords+=i[::-1]+' '
-#print(BackwardWords)
-print ('333')
+print(BackwardWords)
+#print ('333')
 
 
 
