@@ -29,11 +29,11 @@ sentence=input("Please enter a string of text (the bigger the better): ")
 print('You entered '+'"'+sentence+'"'+' Now jumble it:')
 #Putting the whole sentence in backwards order
 backwards=sentence[::-1]
-print(backwards)
+#print(backwards)
 #Putting the words as they were in backwards order
 words=sentence.split()
 sentenceBackwards=words[::-1]
-NEWsentenceBackwards=""
+NEWsentenceBackwards=backwards+chr(10)+""
 for x in sentenceBackwards:
     NEWsentenceBackwards+=x+" "
 print(NEWsentenceBackwards)
