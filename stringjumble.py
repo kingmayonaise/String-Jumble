@@ -40,7 +40,7 @@ print(NEWsentenceBackwards)
 #Putting word lettering in backwards order but words in correct order
 BackwardWords=""
 for i in words:
-    BackwardWords+=i[::-1]+" "
+    BackwardWords+=i[::-1]+"x"
 print(BackwardWords)
 
 
