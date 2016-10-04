@@ -25,22 +25,22 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
-sentence=input("Please enter a string of text (the bigger the better): ")
+sentence=input('Please enter a string of text (the bigger the better): ')
 print('You entered '+'"'+sentence+'"'+' Now jumble it:')
 #Putting the whole sentence in backwards order
 backwards=sentence[::-1]
-print(backwards)
+#print(backwards)
 #print('111')
 #Putting the words as they were in backwards order
 words=sentence.split()
 sentenceBackwards=words[::-1]
-NEWsentenceBackwards=''
+NEWsentenceBackwards=backwards+ ' '
 for x in sentenceBackwards:
     NEWsentenceBackwards+=x+' '
-print(NEWsentenceBackwards)
+#print(NEWsentenceBackwards)
 #print ('222')
 #Putting word lettering in backwards order but words in correct order
-BackwardWords=''
+BackwardWords=NEWsentenceBackwards+' '
 for i in words:
     BackwardWords+=i[::-1]+' '
 print(BackwardWords)
