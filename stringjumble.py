@@ -25,5 +25,8 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
-word=input("Please enter a string of text (the bigger the better): ")
+#word=input("Please enter a string of text (the bigger the better): ")
+word="There are a few techniques or tricks that you may find handy"
 print("You entered "+"'"+word+"'"+" Now jumble it: ")
+word=word[::-1]
+print(word)
