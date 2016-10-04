@@ -34,11 +34,11 @@ print('111')
 #Putting the words as they were in backwards order
 words=sentence.split()
 sentenceBackwards=words[::-1]
-NEWsentenceBackwards=backwards+chr(10)
+NEWsentenceBackwards=''
 for x in sentenceBackwards:
     NEWsentenceBackwards+=x+' '
-#print(NEWsentenceBackwards)
-print ('222')
+print(NEWsentenceBackwards)
+#print ('222')
 #Putting word lettering in backwards order but words in correct order
 BackwardWords=NEWsentenceBackwards+chr(10)
 for i in words:
