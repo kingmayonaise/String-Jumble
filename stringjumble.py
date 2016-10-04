@@ -33,12 +33,12 @@ backwards=sentence[::-1]
 #Putting the words as they were in backwards order
 words=sentence.split()
 sentenceBackwards=words[::-1]
-NEWsentenceBackwards=backwards+chr(10)+''
+NEWsentenceBackwards=backwards+chr(10)
 for x in sentenceBackwards:
     NEWsentenceBackwards+=x+' '
-print(NEWsentenceBackwards)
+#print(NEWsentenceBackwards)
 #Putting word lettering in backwards order but words in correct order
-BackwardWords=""
+BackwardWords=NEWsentenceBackwards+chr(10)
 for i in words:
     BackwardWords+=i[::-1]+' '
 print(BackwardWords)
